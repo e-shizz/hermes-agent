@@ -506,8 +506,7 @@ export default function App() {
               <PluginSlot name="pre-main" />
               <div
                 className={cn(
-                  "w-full min-w-0",
-                  (isDocsRoute || isChatRoute) && "min-h-0 flex flex-1 flex-col",
+                  "w-full min-w-0 min-h-0 flex flex-1 flex-col",
                 )}
               >
                 <Routes>
